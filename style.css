@@ -1,8 +1,9 @@
 body{
-    background-color: #ffffff;
-    color: #000;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #efefef;
+    color: #000;
 }
+
 .mastercard {
     background-image: url(images/card/Background.png);
     background-size: cover;
@@ -151,4 +152,203 @@ body{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.container{
+    width: 252px;
+    height: 727px;
+    box-shadow: 12px #000;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.menu-block{
+    position: relative;
+    top: 20px;
+}
+
+.menu-list{
+    list-style: none;
+
+}
+
+.link{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #A0AEC0;
+    margin:20px 0px;
+}
+
+.link:active{
+    color: #2D3748;
+}
+
+.link:focus{
+    color: #2D3748;
+}
+
+h2{
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: #2D3748;
+}
+
+.imgs{
+    margin: 40px 0;
+}
+
+.help{
+    position: relative;
+    left: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: #2D3748;
+}
+
+.docs{
+    width: 186px;
+    height: 35px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: #fff;
+    background-color: #3182CE;
+    border-radius: 8px;
+    border: none;
+}
+
+.payment{}
+
+.container-payment{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 990px;
+    height: 172px;
+}
+
+.payment-block{
+    position: relative;
+    top: 25px;
+}
+
+.varius-payment{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: #2D3748;
+}
+
+.varius-pay{
+    display: flex;
+}
+
+.input-data{
+    width: 458.5px;
+    height: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 1px solid #A0AEC0;
+    border-radius: 8px;
+}
+
+.imgs-input{
+    position: relative;
+    left: 45px;
+}
+
+.input-redux{
+    position: relative;
+    right: 30px;
+}
+
+.button-plus{
+    position: relative;
+    bottom: 110px;
+    left: 845px;
+    width: 134px;
+    height: 30px;
+    background-color: #2D3748;
+    color: #fff;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.container-bankscore{
+    width: 930px;
+    height: 538px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+
+.block-score{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 700px;
+}
+
+.text-info{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.user{
+    position: relative;
+    top: 10px;
+}
+
+.block-info{
+    width: 855px;
+    height: 132px;
+    background-color: #f3f5f8;
+    color: #718096;
+    border: none;
+    border-radius: 20px;
+    margin: 30px 20px;
+}
+
+.userinfo{
+    width: 286px;
+    height: 54px;
+    margin: 10px 20px;
+}
+
+.delete{
+    width: 67px;
+    height: 30px;
+    color: red;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+
+.delete-icon{
+    position: relative;
+    top: 4px;
+}
+
+.redux{
+    width: 130px;
+    position: relative;
+    left: 740px;
+    bottom: 85px;
+    background-color: #ffffff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
 }
