@@ -1,8 +1,117 @@
-body{
-    background-color: #ffffff;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    box-sizing: content-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #efefef;
+    color: #000;
+}
+
+main {
+    padding-left: 20px;
+    padding-right: 32px;
+    margin-top: -288px;
+    display: grid;
+    grid-template-columns: 265px 990px 572px;
+    column-gap: 24px;
+    grid-template-rows: 240px 172px 540px;
+    row-gap: 24px;
+}
+#card {
+    display: flex;
+    gap: 24px;
+}
+#sidebar {
+    grid-row: span 3;
+}
+.salary {
+    width: 240px;
+    height: 240px;
+    background-color: #fff;
+    box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+.score {
+    width: 240px;
+    height: 240px;
+    background-color: #fff;
+    box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+
+}
+#scores {
+    width: 572px;
+    height: 436px;
+    box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    background-color: #fff;
+    grid-row: span 2;
+}
+header{
+    width: 100%;
+    height: 414px;
+    background-color: #3182CE;
+}
+header .content {
+    max-width: 1870px;
+    width: 100%;
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-header .part {
+    font-family: Helvetica;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    
+}
+.partscore {
+    color: #fff;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 0%;
+    
+}
+.block-control {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+header .content input[type="text"] {
+    width: 199px;
+    height: 39.5px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+header .content input[type="text"]::placeholder {
+    color: #A0AEC0;
+    margin-left: 37.5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+header .content input[type="text"]:active {
+border: none;
+}
+.auth {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+
+
 .mastercard {
     background-image: url(images/card/Background.png);
     background-size: cover;
@@ -64,12 +173,14 @@ body{
     }
 }
 .tranzactions-blocks {
+    margin-left: -90px;
     width: 660px;
     height: 538px;
     border-radius: 20px;
     box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, 0.05);
     display: grid;
     grid-template-columns: 1fr;
+    background-color: #fff;
     grid-template-rows: 25px 140.5px 272.5px;
     grid-row-gap: 26px;
 }
@@ -151,4 +262,220 @@ body{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.container{
+    width: 252px;
+    height: 727px;
+    box-shadow: 12px #000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.menu-block{
+    position: relative;
+    top: 20px;
+}
+
+.menu-list{
+    list-style: none;
+
+}
+
+.link{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #A0AEC0;
+    margin:20px 0px;
+}
+
+.link:active{
+    color: #2D3748;
+}
+
+.link:focus{
+    color: #2D3748;
+}
+
+h2{
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2D3748;
+}
+
+.imgs{
+    margin: 40px 0;
+}
+
+.help{
+    position: relative;
+    left: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: #2D3748;
+}
+
+.docs{
+    width: 186px;
+    height: 35px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: #fff;
+    background-color: #3182CE;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.container-payment{
+    margin-top: -20px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 990px;
+    height: 172px;
+}
+
+.payment-block{
+    position: relative;
+    top: 25px;
+}
+
+.varius-payment{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: #2D3748;
+}
+
+.varius-pay{
+    display: flex;
+}
+
+.input-data{
+    width: 458.5px;
+    height: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 1px solid #A0AEC0;
+    border-radius: 8px;
+}
+
+.imgs-input{
+    position: relative;
+    left: 45px;
+}
+
+.input-redux{
+    position: relative;
+    right: 30px;
+}
+
+.button-plus{
+    position: relative;
+    bottom: 120px;
+    left: 830px;
+    width: 134px;
+    height: 30px;
+    background-color: #2D3748;
+    color: #fff;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.container-bankscore{
+    width: 900px;
+    height: 538px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+
+.block-score{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 700px;
+}
+
+.text-info{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.user{
+    position: relative;
+    top: 10px;
+}
+
+.block-info{
+    width: 855px;
+    height: 132px;
+    background-color: #f3f5f8;
+    color: #718096;
+    border: none;
+    border-radius: 20px;
+    margin: 30px 20px;
+}
+
+.userinfo{
+    width: 286px;
+    height: 54px;
+    margin: 10px 20px;
+}
+
+.delete{
+    width: 67px;
+    height: 30px;
+    color: red;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+
+.delete-icon{
+    position: relative;
+    top: 4px;
+}
+
+.redux{
+    width: 130px;
+    position: relative;
+    left: 740px;
+    bottom: 85px;
+    background-color: #ffffff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+}
+
+.footer-menu{
+    width: 311px;
+    padding: 20px 40px;
+    gap: 35px;
+}
+
+.footer-menu-links{
+    text-decoration: none;
+    color: #A0AEC0;
+    font-size: 12px;
+    padding: 20px;
 }
