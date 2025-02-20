@@ -4,6 +4,49 @@ body{
     color: #000;
 }
 
+header{
+    width: 100%;
+    height: 414px;
+    background-color: #3182CE;
+}
+
+.text-header{
+    width: 900px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.part{
+    color: #fff;
+    font-size: 12px;
+    width: 300px;
+}
+
+.partscore{
+    color: #fff;
+    width: 200px;
+}
+
+.block-control{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    bottom: 40px;
+    left: 850px;
+    width: 200px;
+}
+
+.header-input{
+    border: none;
+    border-radius: 10px;
+}
+
+.auth{
+    color: #fff;
+    font-weight: 500;
+}
+
 .mastercard {
     background-image: url(images/card/Background.png);
     background-size: cover;
@@ -191,10 +234,8 @@ body{
 
 h2{
     position: relative;
-    left: 10px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
     color: #2D3748;
 }
 
