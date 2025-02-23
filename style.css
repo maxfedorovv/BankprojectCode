@@ -212,7 +212,6 @@ header{
 
 .menu-list{
     list-style: none;
-
 }
 
 .link{
@@ -411,4 +410,110 @@ footer{
     color: #A0AEC0;
     font-size: 12px;
     padding: 20px;
+}
+
+/* CSS Дарины*/
+
+.cards-showcase{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.card{
+    width: 240px;
+    height: 240px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.texts{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.description{
+    font-weight: 700;
+    color: #2D3748;
+    font-size: 10px;
+}
+
+.container-operation{
+    position: relative;
+    top: 30px;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.item-group{
+    margin: 0 20px;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.button-watch{
+    width: 110px;
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 400;
+    border: 1px solid #3182CE;
+    border-radius: 8px;
+    color: #3182CE;
+}
+
+.data-operation{
+    font-size: 14px;
+    font-weight: 700;
+    color: #2D3748;
+}
+
+.number{
+    font-size: 10px;
+    font-weight: 400;
+    color: #2D3748;
+}
+
+.item-score{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 8px;
+}
+
+.more-scores{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pdf-icon{
+    width: 15px;
+    height: 15px;
+}
+
+.money-2{
+    color: #A0AEC0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.file-format{
+    color: #2D3748;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card-img{
+    position: relative;
+    top: 20px;
+    left: 84px;
 }
