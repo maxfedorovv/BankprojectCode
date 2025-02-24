@@ -239,7 +239,7 @@ header{
 
 .container{
     width: 252px;
-    height: 727px;
+    height: 850px;
     box-shadow: 12px #000;
     background-color: #ffffff;
     border-radius: 5px;
@@ -252,6 +252,13 @@ header{
 
 .menu-list{
     list-style: none;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 .link{
@@ -278,8 +285,19 @@ h2{
     color: #2D3748;
 }
 
+.account{
+    margin-left: 40px;
+}
+
+.home{
+    background-image: url('assets/Rectangle3.png');
+    background-size: 30px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
 .imgs{
-    margin: 40px 0;
+    margin: 40px 20px;
 }
 
 .help{
