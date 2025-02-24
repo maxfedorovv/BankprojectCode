@@ -30,21 +30,48 @@ header{
 
 .block-control{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 20px;
-    position: relative;
-    bottom: 40px;
-    left: 850px;
+    position: absolute;
+    top: 40px;
+    left: 1485px;
     width: 200px;
 }
 
 .header-input{
+    width: 199px;
+    height: 40px;
     border: none;
     border-radius: 10px;
+    text-align: center;
+}
+
+.input-search{
+    position: relative;
+    left: 50px;
+}
+
+.auth-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 .auth{
     color: #fff;
     font-weight: 500;
+}
+
+.person{
+    width: 15px;
+    height: 15px;
+}
+
+.notification{
+    width: 15px;
+    height: 15px;
 }
 
 .mastercard {
